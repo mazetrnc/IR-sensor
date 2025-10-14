@@ -2,7 +2,7 @@
 
 <img width="960" height="588" alt="image" src="https://github.com/user-attachments/assets/56111a13-6c70-457d-80fb-8c906a1168d3" />
 
-2. ¿Cómo Funcionan? (El Principio Físico)
+¿Cómo Funcionan? (El Principio Físico)
 
 La clave está en el fototransistor o fotorreceptor. La mayoría de los sensores IR que usamos tienen dos partes:
 
@@ -11,6 +11,20 @@ La clave está en el fototransistor o fotorreceptor. La mayoría de los sensores
 · Un Receptor de IR (Fototransistor): Es un componente que es "ciego" a la luz visible, pero se activa o conduce electricidad cuando le llega luz infrarroja.
 
 <img width="800" height="800" alt="image" src="https://github.com/user-attachments/assets/555fb7a5-e295-43dc-9173-5b14e6914ae8" />
+
+¿Cómo se Comunican con un Microcontrolador (como Arduino o Raspberry Pi)?
+
+Esta es la parte práctica. La comunicación es casi siempre a través de señales analógicas o digitales.
+
+· Señal Analógica (Para medir distancia o intensidad):
+  El receptor de IR no da un "sí" o "no", sino un voltaje variable (por ejemplo, entre 0V y 5V). Este voltaje cambia dependiendo de la cantidad de luz IR que recibe.
+  · ¿Cómo se lee? Conectamos la patita de señal del sensor a una entrada analógica (ADC) del microcontrolador (ej: pin A0 en Arduino). El microcontrolador lee ese voltaje y lo convierte en un número (ej: de 0 a 1023). Un número alto significa "objeto muy cerca", un número bajo significa "objeto lejos o no hay objeto".
+· Señal Digital (Para detección de "sí/no" o "on/off"):
+  Algunos sensores tienen un circuito extra que "decide" por nosotros. Si la señal supera un umbral, envía un LOW (0V), y si no lo supera, envía un HIGH (5V).
+  · ¿Cómo se lee? Conectamos la patita de señal a una entrada digital del microcontrolador (ej: pin 2 en Arduino). En nuestro código, solo debemos comprobar si el pin está en HIGH o LOW.
+
+Caso Especial: Comunicación de Datos (Como el Mando a Distancia)
+Aquí es más sofisticado.El emisor IR no se enciende de forma continua, sino que parpadea muy rápido en un patrón específico de pulsos (un código binario). El receptor especializado (como el TSOP382) decodifica ese patrón y lo convierte en una señal digital que el microcontrolador puede interpretar como "subir volumen", "cambiar canal", etc.
 
 <img width="649" height="345" alt="image" src="https://github.com/user-attachments/assets/961d67a0-f58a-47bb-b054-d628993c12ea" />
 
