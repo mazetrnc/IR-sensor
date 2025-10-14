@@ -1,5 +1,11 @@
 # Sensores IR
 
+¿Qué es un Sensor Infrarrojo (IR)?
+
+Imaginen el espectro de luz que el ojo humano puede ver: desde el violeta hasta el rojo. Ahora, si siguen más allá del color rojo, hay un tipo de luz que nosotros NO podemos ver, pero que sí podemos sentir como calor. Esa es la luz infrarroja.
+
+Un sensor infrarrojo es, entonces, un dispositivo electrónico diseñado específicamente para detectar esta luz invisible que emiten todos los cuerpos calientes (incluidos nosotros, un muro o el sol).
+
 <img width="960" height="588" alt="image" src="https://github.com/user-attachments/assets/56111a13-6c70-457d-80fb-8c906a1168d3" />
 
 ¿Cómo Funcionan? (El Principio Físico)
@@ -45,6 +51,7 @@ QTR 8A
 
 TSOP382
 <img width="600" height="450" alt="image" src="https://github.com/user-attachments/assets/39b419f8-a801-4098-98fd-3b3305439035" />
+Un encapsulado de 3 patas que solo sirve para recibir y decodificar las señales de los mandos de TV, etc.
 
 <img width="1685" height="825" alt="image" src="https://github.com/user-attachments/assets/e5ac3745-a23c-4198-80f7-143448d7aebf" />
 
