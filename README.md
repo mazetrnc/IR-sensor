@@ -33,6 +33,8 @@ Aquí es más sofisticado.El emisor IR no se enciende de forma continua, sino qu
 GP2Y0A21YK
 <img width="500" height="366" alt="image" src="https://github.com/user-attachments/assets/1a16c63b-bb46-4eed-9045-a09fc7b456d3" />
 
+Usan el principio de "triangulación" para medir distancias con mucha más precisión que un módulo simple. Dan una salida analógica muy estable.
+
 QTR 1A
 <img width="634" height="480" alt="image" src="https://github.com/user-attachments/assets/daa745cd-d01d-428f-b5c9-0b62fade7080" />
 
