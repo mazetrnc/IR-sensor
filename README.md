@@ -1,6 +1,14 @@
-# IR Sensor
+# Sensores IR
 
 <img width="960" height="588" alt="image" src="https://github.com/user-attachments/assets/56111a13-6c70-457d-80fb-8c906a1168d3" />
+
+2. ¿Cómo Funcionan? (El Principio Físico)
+
+La clave está en el fototransistor o fotorreceptor. La mayoría de los sensores IR que usamos tienen dos partes:
+
+· Un Emisor de IR (LED Infrarrojo): Es un diodo LED normal, pero en lugar de emitir luz visible, emite luz infrarroja. Es como una linterna invisible.
+
+· Un Receptor de IR (Fototransistor): Es un componente que es "ciego" a la luz visible, pero se activa o conduce electricidad cuando le llega luz infrarroja.
 
 <img width="800" height="800" alt="image" src="https://github.com/user-attachments/assets/555fb7a5-e295-43dc-9173-5b14e6914ae8" />
 
