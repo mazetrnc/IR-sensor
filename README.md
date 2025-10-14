@@ -1,6 +1,6 @@
 # Sensores IR
 
-¿Qué es un Sensor Infrarrojo (IR)?
+<h3>¿Qué es un Sensor Infrarrojo (IR)?</h3>
 
 Imaginen el espectro de luz que el ojo humano puede ver: desde el violeta hasta el rojo. Ahora, si siguen más allá del color rojo, hay un tipo de luz que nosotros NO podemos ver, pero que sí podemos sentir como calor. Esa es la luz infrarroja.
 
