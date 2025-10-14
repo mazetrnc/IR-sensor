@@ -8,7 +8,7 @@ Un sensor infrarrojo es, entonces, un dispositivo electrónico diseñado especí
 
 <img width="960" height="588" alt="image" src="https://github.com/user-attachments/assets/56111a13-6c70-457d-80fb-8c906a1168d3" />
 
-¿Cómo Funcionan? (El Principio Físico)
+<h3>¿Cómo Funcionan? (El Principio Físico)</h3>
 
 La clave está en el fototransistor o fotorreceptor. La mayoría de los sensores IR que usamos tienen dos partes:
 
@@ -18,7 +18,7 @@ La clave está en el fototransistor o fotorreceptor. La mayoría de los sensores
 
 <img width="800" height="800" alt="image" src="https://github.com/user-attachments/assets/555fb7a5-e295-43dc-9173-5b14e6914ae8" />
 
-¿Cómo se Comunican con un Microcontrolador (como Arduino o Raspberry Pi)?
+<h3>¿Cómo se Comunican con un Microcontrolador (como Arduino o Raspberry Pi)?</h3>
 
 Esta es la parte práctica. La comunicación es casi siempre a través de señales analógicas o digitales.
 
@@ -36,20 +36,20 @@ Aquí es más sofisticado.El emisor IR no se enciende de forma continua, sino qu
 
 <img width="800" height="267" alt="image" src="https://github.com/user-attachments/assets/1e722886-f3aa-4855-bed0-178cd91180c8" />
 
-GP2Y0A21YK
+<h3>GP2Y0A21YK</h3>
 <img width="500" height="366" alt="image" src="https://github.com/user-attachments/assets/1a16c63b-bb46-4eed-9045-a09fc7b456d3" />
 
 Usan el principio de "triangulación" para medir distancias con mucha más precisión que un módulo simple. Dan una salida analógica muy estable.
 
-QTR 1A
+<h3>QTR 1A</h3>
 <img width="634" height="480" alt="image" src="https://github.com/user-attachments/assets/daa745cd-d01d-428f-b5c9-0b62fade7080" />
 
-QTR 8A
+<h3>QTR 8A</h3>
 <img width="458" height="458" alt="image" src="https://github.com/user-attachments/assets/478dcdc5-31af-4ae6-8c2f-236f1047b0c0" />
 
 <img width="1048" height="444" alt="image" src="https://github.com/user-attachments/assets/8bab99c7-e2a5-4a81-9556-c0d7e9933ecc" />
 
-TSOP382
+<h3>TSOP382</h3>
 <img width="600" height="450" alt="image" src="https://github.com/user-attachments/assets/39b419f8-a801-4098-98fd-3b3305439035" />
 Un encapsulado de 3 patas que solo sirve para recibir y decodificar las señales de los mandos de TV, etc.
 
