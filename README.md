@@ -1,7 +1,8 @@
 # IR Sensor
 
 <img width="960" height="588" alt="image" src="https://github.com/user-attachments/assets/56111a13-6c70-457d-80fb-8c906a1168d3" />
-<img width="1200" height="1200" alt="image" src="https://github.com/user-attachments/assets/555fb7a5-e295-43dc-9173-5b14e6914ae8" />
+
+<img width="900" height="900" alt="image" src="https://github.com/user-attachments/assets/555fb7a5-e295-43dc-9173-5b14e6914ae8" />
 <img width="649" height="345" alt="image" src="https://github.com/user-attachments/assets/961d67a0-f58a-47bb-b054-d628993c12ea" />
 <img width="800" height="267" alt="image" src="https://github.com/user-attachments/assets/1e722886-f3aa-4855-bed0-178cd91180c8" />
 <img width="500" height="366" alt="image" src="https://github.com/user-attachments/assets/1a16c63b-bb46-4eed-9045-a09fc7b456d3" />
