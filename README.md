@@ -30,6 +30,7 @@ El emisor y el receptor están enfrentados. El emisor lanza luz IR continuamente
 
 <img width="649" height="345" alt="image" src="https://github.com/user-attachments/assets/961d67a0-f58a-47bb-b054-d628993c12ea" />
 <br>
+<img width="800" height="267" alt="image" src="https://github.com/user-attachments/assets/1e722886-f3aa-4855-bed0-178cd91180c8" />
 
 
 <h3>¿Cómo se Comunican con un Microcontrolador (como Arduino o Raspberry Pi)?</h3>
