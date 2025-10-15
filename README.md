@@ -16,7 +16,7 @@ La clave está en el fototransistor o fotorreceptor. La mayoría de los sensores
 
 · Un Receptor de IR (Fototransistor): Es un componente que es "ciego" a la luz visible, pero se activa o conduce electricidad cuando le llega luz infrarroja.
 
-<img width="800" height="800" alt="image" src="https://github.com/user-attachments/assets/555fb7a5-e295-43dc-9173-5b14e6914ae8" />
+<img width="600" height="600" alt="image" src="https://github.com/user-attachments/assets/555fb7a5-e295-43dc-9173-5b14e6914ae8" />
 
 <h3>¿Cómo se Comunican con un Microcontrolador (como Arduino o Raspberry Pi)?</h3>
 
