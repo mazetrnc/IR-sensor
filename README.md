@@ -26,6 +26,7 @@ El emisor y el receptor están uno al lado del otro. El emisor lanza constanteme
 
 Detección por Interrupción (Tipo Barrera):
 El emisor y el receptor están enfrentados. El emisor lanza luz IR continuamente hacia el receptor. Si un objeto se interpone en medio, interrumpe el haz de luz. El receptor deja de detectar IR y lo interpreta como "algo ha pasado por aquí". Así funcionan las puertas automáticas o los contadores de objetos.
+<br>
 <img width="649" height="345" alt="image" src="https://github.com/user-attachments/assets/961d67a0-f58a-47bb-b054-d628993c12ea" />
 
 <h3>¿Cómo se Comunican con un Microcontrolador (como Arduino o Raspberry Pi)?</h3>
@@ -35,6 +36,7 @@ Esta es la parte práctica. La comunicación es casi siempre a través de señal
 <b>· Señal Analógica (Para medir distancia o intensidad):</b>
   El receptor de IR no da un "sí" o "no", sino un voltaje variable (por ejemplo, entre 0V y 5V). Este voltaje cambia dependiendo de la cantidad de luz IR que recibe.
   · ¿Cómo se lee? Conectamos la patita de señal del sensor a una entrada analógica (ADC) del microcontrolador (ej: pin A0 en Arduino). El microcontrolador lee ese voltaje y lo convierte en un número (ej: de 0 a 1023). Un número alto significa "objeto muy cerca", un número bajo significa "objeto lejos o no hay objeto".
+  <br>
 <b>· Señal Digital (Para detección de "sí/no" o "on/off"):</b>
   Algunos sensores tienen un circuito extra que "decide" por nosotros. Si la señal supera un umbral, envía un LOW (0V), y si no lo supera, envía un HIGH (5V).
   · ¿Cómo se lee? Conectamos la patita de señal a una entrada digital del microcontrolador (ej: pin 2 en Arduino). En nuestro código, solo debemos comprobar si el pin está en HIGH o LOW.
