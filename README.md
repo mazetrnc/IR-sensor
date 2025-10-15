@@ -64,5 +64,5 @@ Aquí es más sofisticado.El emisor IR no se enciende de forma continua, sino qu
 
 <img style="max-width:75%" width="1685" height="825" alt="image" src="https://github.com/user-attachments/assets/e5ac3745-a23c-4198-80f7-143448d7aebf" />
 
-<img width="1280" height="1043" alt="image" src="https://github.com/user-attachments/assets/f4d355f8-2081-4863-b5b0-960ad98f5690" />
+<img style="max-width:75%" width="1280" height="1043" alt="image" src="https://github.com/user-attachments/assets/f4d355f8-2081-4863-b5b0-960ad98f5690" />
 
