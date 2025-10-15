@@ -18,6 +18,16 @@ La clave está en el fototransistor o fotorreceptor. La mayoría de los sensores
 
 <img width="600" height="600" alt="image" src="https://github.com/user-attachments/assets/555fb7a5-e295-43dc-9173-5b14e6914ae8" />
 
+<h1>¿Cómo trabajan juntos? </h1>
+
+Se usan principalmente de dos formas:
+Detección por Reflexión (Tipo Pozo Óptico):
+El emisor y el receptor están uno al lado del otro. El emisor lanza constantemente luz IR. Si hay un objeto delante, esta luz rebota y una parte es captada por el receptor. Cuanto más cerca está el objeto, más luz rebota y más fuerte es la señal en el receptor. Así funcionan los robots seguidores de línea o los que evitan obstáculos.
+
+Detección por Interrupción (Tipo Barrera):
+El emisor y el receptor están enfrentados. El emisor lanza luz IR continuamente hacia el receptor. Si un objeto se interpone en medio, interrumpe el haz de luz. El receptor deja de detectar IR y lo interpreta como "algo ha pasado por aquí". Así funcionan las puertas automáticas o los contadores de objetos.
+<img width="649" height="345" alt="image" src="https://github.com/user-attachments/assets/961d67a0-f58a-47bb-b054-d628993c12ea" />
+
 <h3>¿Cómo se Comunican con un Microcontrolador (como Arduino o Raspberry Pi)?</h3>
 
 Esta es la parte práctica. La comunicación es casi siempre a través de señales analógicas o digitales.
@@ -31,8 +41,6 @@ Esta es la parte práctica. La comunicación es casi siempre a través de señal
 
 Caso Especial: Comunicación de Datos (Como el Mando a Distancia)
 Aquí es más sofisticado.El emisor IR no se enciende de forma continua, sino que parpadea muy rápido en un patrón específico de pulsos (un código binario). El receptor especializado (como el TSOP382) decodifica ese patrón y lo convierte en una señal digital que el microcontrolador puede interpretar como "subir volumen", "cambiar canal", etc.
-
-<img width="649" height="345" alt="image" src="https://github.com/user-attachments/assets/961d67a0-f58a-47bb-b054-d628993c12ea" />
 
 <img width="800" height="267" alt="image" src="https://github.com/user-attachments/assets/1e722886-f3aa-4855-bed0-178cd91180c8" />
 
