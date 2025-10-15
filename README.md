@@ -54,7 +54,7 @@ Aquí es más sofisticado.El emisor IR no se enciende de forma continua, sino qu
 <br>Usan el principio de "triangulación" para medir distancias con mucha más precisión que un módulo simple. Dan una salida analógica muy estable.
 
 <h3>QTR</h3>
-<img width="634" height="480" alt="image" src="https://github.com/user-attachments/assets/daa745cd-d01d-428f-b5c9-0b62fade7080" />
+<img style="max-width:60%" width="634" height="480" alt="image" src="https://github.com/user-attachments/assets/daa745cd-d01d-428f-b5c9-0b62fade7080" />
 <img width="458" height="458" alt="image" src="https://github.com/user-attachments/assets/478dcdc5-31af-4ae6-8c2f-236f1047b0c0" />
 
 <img style="max-width:75%" width="1048" height="444" alt="image" src="https://github.com/user-attachments/assets/8bab99c7-e2a5-4a81-9556-c0d7e9933ecc" />
