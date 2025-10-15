@@ -20,7 +20,7 @@ La clave está en el fototransistor o fotorreceptor. La mayoría de los sensores
 
 <h3>¿Cómo trabajan juntos? </h3>
 
-Se usan principalmente de dos formas:<br>
+Se usan principalmente de dos formas:<br><br>
 <b>Detección por Reflexión (Tipo Pozo Óptico):</b>
 El emisor y el receptor están uno al lado del otro. El emisor lanza constantemente luz IR. Si hay un objeto delante, esta luz rebota y una parte es captada por el receptor. Cuanto más cerca está el objeto, más luz rebota y más fuerte es la señal en el receptor. Así funcionan los robots seguidores de línea o los que evitan obstáculos.
 <br><br>
