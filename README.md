@@ -27,6 +27,7 @@ El emisor y el receptor están uno al lado del otro. El emisor lanza constanteme
 Detección por Interrupción (Tipo Barrera):
 El emisor y el receptor están enfrentados. El emisor lanza luz IR continuamente hacia el receptor. Si un objeto se interpone en medio, interrumpe el haz de luz. El receptor deja de detectar IR y lo interpreta como "algo ha pasado por aquí". Así funcionan las puertas automáticas o los contadores de objetos.
 <br>
+
 <img width="649" height="345" alt="image" src="https://github.com/user-attachments/assets/961d67a0-f58a-47bb-b054-d628993c12ea" />
 
 <h3>¿Cómo se Comunican con un Microcontrolador (como Arduino o Raspberry Pi)?</h3>
@@ -52,13 +53,11 @@ Aquí es más sofisticado.El emisor IR no se enciende de forma continua, sino qu
 
 <br>Usan el principio de "triangulación" para medir distancias con mucha más precisión que un módulo simple. Dan una salida analógica muy estable.
 
-<h3>QTR 1A</h3>
+<h3>QTR</h3>
 <img width="634" height="480" alt="image" src="https://github.com/user-attachments/assets/daa745cd-d01d-428f-b5c9-0b62fade7080" />
-
-<h3>QTR 8A</h3>
 <img width="458" height="458" alt="image" src="https://github.com/user-attachments/assets/478dcdc5-31af-4ae6-8c2f-236f1047b0c0" />
 
-<img width="1048" height="444" alt="image" src="https://github.com/user-attachments/assets/8bab99c7-e2a5-4a81-9556-c0d7e9933ecc" />
+<img style="max-width:75%" width="1048" height="444" alt="image" src="https://github.com/user-attachments/assets/8bab99c7-e2a5-4a81-9556-c0d7e9933ecc" />
 
 <h3>TSOP382</h3>
 <img width="600" height="450" alt="image" src="https://github.com/user-attachments/assets/39b419f8-a801-4098-98fd-3b3305439035" />
