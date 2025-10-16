@@ -33,7 +33,7 @@ El emisor y el receptor están enfrentados. El emisor lanza luz IR continuamente
 <img width="800" height="267" alt="image" src="https://github.com/user-attachments/assets/1e722886-f3aa-4855-bed0-178cd91180c8" />
 
 
-<h3>¿Cómo se Comunican con un Microcontrolador (como Arduino o Raspberry Pi)?</h3>
+<h3>¿Cómo se Comunican con un Microcontrolador (como Arduino o ESP32)?</h3>
 
 Esta es la parte práctica. La comunicación es casi siempre a través de señales analógicas o digitales.
 
@@ -48,6 +48,7 @@ Esta es la parte práctica. La comunicación es casi siempre a través de señal
 <b>Caso Especial: Comunicación de Datos (Como el Mando a Distancia)</b>
 Aquí es más sofisticado.El emisor IR no se enciende de forma continua, sino que parpadea muy rápido en un patrón específico de pulsos (un código binario). El receptor especializado (como el TSOP382) decodifica ese patrón y lo convierte en una señal digital que el microcontrolador puede interpretar como "subir volumen", "cambiar canal", etc. 
 <br>
+
 <img  width="1685" height="825" alt="image" src="https://github.com/user-attachments/assets/e5ac3745-a23c-4198-80f7-143448d7aebf" />
 <img  width="1012" height="825" alt="image" src="https://github.com/user-attachments/assets/f4d355f8-2081-4863-b5b0-960ad98f5690" />
 
