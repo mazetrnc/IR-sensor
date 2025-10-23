@@ -54,7 +54,7 @@ Aquí es más sofisticado.El emisor IR no se enciende de forma continua, sino qu
 
 <h3>GP2Y0A21YK</h3>
 <img width="500" height="366" alt="image" src="https://github.com/user-attachments/assets/1a16c63b-bb46-4eed-9045-a09fc7b456d3" />
-<img width="768" height="645" alt="image" src="https://github.com/user-attachments/assets/d2a329fd-2d2a-4bb4-b67d-958b12ca7250" />
+<img width="500" height="419" alt="image" src="https://github.com/user-attachments/assets/d2a329fd-2d2a-4bb4-b67d-958b12ca7250" />
 
 
 <br>Usan el principio de "triangulación" para medir distancias con mucha más precisión que un módulo simple. Dan una salida analógica muy estable.
